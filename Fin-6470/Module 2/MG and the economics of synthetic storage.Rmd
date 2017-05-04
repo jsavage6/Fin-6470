@@ -1,0 +1,7 @@
+##MG and the economics of synthetic storage
+
+MG refining and marketing is an American subsidiary of a german company.  They provided garanteed prices for up to ten years for companies by utilizing derivatives markets to lock in the basis instead of speculating on the price of oil.  They rolled over their positions month to month.  This made their future positions really heavy and when the market goes against them it causes them to have paper losses.  The big suits saw this and not understanding the model they shut down the derivatives part, the part that made this whole strategy possible, and made them realize huge losses.  he strategy they employed is called synthetic storage.  This is a strategy that eliminates the need for most if not all physical storage.
+
+The strategy makes them money hand over fist when the market is in backwordation but when it is in contango it causes heavy paper losses and requires the company to have lots of cash on hand in order to roll over their positions.  Critics have issues with the cash it takes to keep this going.  
+
+MG is famous because of massive losses in derivative markets but if they had stayed with the same strategy then about a year later then they would have realized gains.

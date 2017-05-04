@@ -1,0 +1,9 @@
+#Empirical performance of alternative option pricing models
+
+Over recent years they say that number of option pricing models alternative to the black scholes model has grew exponentially.  They also point out that these models a lot of the time have a lot more inputs making them even more complicated.  
+
+They bring this up also because people who are forced to pick between the different alternative models will get easily confused and there is no definitive source on which one is better.  To make matters even more complex, not all models are created equal, some are more exact than others.  The purpose of the paper was to do a comprehensive empirical study on the relative merits of competing option pricing models.  
+
+Over the next billion pages the authors go over different models and their strengths and weaknesses.  Then they go over THE model, which is the black scholes model and discuss why alternatives exist, they exist mainly because of its flaws with skewness.  
+
+Goes on to talk of different parameters for these models and how they relate.  Talks about how well they deal with extremes and if they have skewness as well

@@ -1,0 +1,12 @@
+#Nau
+##Arbitrage choice theory
+
+This papercompares the tradiotional rational choice theory with arbitrage choice theory
+
+  a. rational choice theory is how individuals make individual choices
+  
+  b. arbitrage choice theory is how people will make choices together when there are groups of people
+  
+    1. similarities between the two theories include how poeple wil always want to maximize utility, maintain competitive equilibrium and they expect their beliefs to be updated with their beliefs
+    
+    2. differences include the fact that utility and probability functions do not need to be unique, they can be the same, the whole allais paradox is not a thing in the arbitrage choice theory and utility functions do not need to be state dependent

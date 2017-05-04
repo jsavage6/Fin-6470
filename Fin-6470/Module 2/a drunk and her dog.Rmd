@@ -1,0 +1,11 @@
+##A drunk and her dog
+
+This paper uses an example about the random walk of a drunk and her dog to explain and understand cointegration and error correction models.  It tries to simplify everything so that anybody could understand the principles.
+
+It basically says that while a drunk walks out of a bar in random directions the dog the drunk owns will also walk in random directions but that if you find either the drunk or the dog, they are not far from each other.  Even though the walk is unpredictable, the direction one is from the other is.
+
+One of the key observations was that the last observable value is the best indicator for the next future value.
+
+second key trait is that the longer it goes between observing the next value from the previous the more likely it is to be further from the previous value.
+
+Third key trait is that while the random walk is non stationary the relationship between the two variables, the drunk and her dog, may be stationary

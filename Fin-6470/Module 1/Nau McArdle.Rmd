@@ -1,0 +1,12 @@
+##Nau McArdle
+
+Intro
+
+  a. says that decisions, game theory and market theory can be made better when analyzing consumer preference when used with no arbitrage
+  
+  b.no arbitrage is the fundamental principle of economic rationality which unifies normal decision theory, game theory, and market theory.  This will make the market look like it is deliberately optimizing.
+  
+  c.No arbitrage is most applicable on a large scale rather than a small scale.
+  
+The idea of the paper is that economics relly on fundamental assumptions and axioms.  These assumptions an axioms are more idealistic than realistic.  It is trying to say we should ground things more on no arbitrage than on assumptions and axioms.
+

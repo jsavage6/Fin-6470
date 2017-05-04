@@ -1,0 +1,157 @@
+---
+output: html_document
+---
+## HW chapter 5
+
+####Josh Savage
+
+5.1
+
+Description  |  Payment  |  Change Ownership  |  Payment Amount
+------------ | --------- | ------------------ | ---------------
+Outright Sale | 0         | 0                    | $S_0$ at time 0
+Loan Sale & Security Sale| T | 0| $S_0$$e^r$$^T$ at time T
+ Prepaid Forward | 0 | T | ?
+ Forward | T | T | ? x $e^r$$^T$
+
+5.2
+
+a.
+
+$$
+50 - ((1*e^{-.015*1})+(1*e^{-.015*2})+(1*e^{-.015*3})+(1*e^{-.015*4})) = $46.15
+$$
+
+b.
+
+$$
+46.15*e^{.06*1} = $49.00
+$$
+
+5.3
+
+a.
+
+$$
+$50*e^{(.08)(1)} = $46.16
+$$
+
+b.
+
+$$
+50*e^{(.06-.08)1} = $49.01
+$$
+
+5.4
+
+a.
+
+$$
+$50*e^{(.08)(.5)} = $35.89
+$$
+
+b.
+$$
+\frac{1}{.5} * ln \frac{35.50}{35} = .028
+$$
+
+c.
+
+$$
+35.5 = 35e^{(.05- \delta)(.5)}
+    -->   ln 1.01428 = ln(.05- \delta)(.5)
+    -->   \delta = .0216
+$$
+
+5.6
+
+a.
+
+$$
+$1100e^{(.05-.015)(.75)} = $1129.26
+$$
+  
+  b. Sell the short postion and lend the money out
+  
+  c. borrow money to buy short position
+  
+5.7
+
+  a. The forward is too expensive so you short it by making a synthetic forward at $1127.85 and make a profit of $7.15 with pure arbitrage strategy
+  
+  b. The forward is too cheap so you do the opposite as part 1 and make $12.85
+
+5.8
+
+  a. The price of $1120 is too expensive so we short it and and make $3.38 as the price is $1116.82
+  
+  b. The price of $1110 is too cheap so we buy it and make a $6.82 profit as the price is $1116.82
+  
+5.9
+
+  a. You would go back in time with a huge amount of cash, invest it in 1981 then travel forward to 1982 and collect it.  Rinse, wash and repeat.
+  
+  b. Market rates would be driven down, the manager would be dumb to keep going back to the same date instead of varying it so the market would have a lot harder time adjusting.
+  
+5.11
+
+  a. (4)(250)(1200) = $1,200,000
+  
+  b. 1,200,000 * .10 = $120,000
+  
+5.15
+
+a.
+
+$$
+F^{+} = 800e^{.055} = $845.23
+$$
+$$
+F^{-} = 800e^{.05} = $841.02
+$$
+
+b.
+
+$$
+F^{+} = (800 + 1)e^{.055} = $846.29
+$$
+$$
+F^{-} = (800 - 1)e^{.05} = $839.97
+$$
+
+c.
+
+$$
+F^{+} = (800 + 340)e^{.055} = $848.82
+$$
+$$
+F^{-} = (800 - 340)e^{.05} = $837.44
+$$
+
+d.
+
+$$
+F^{+} = (800 + 340)e^{.055} +2.40 = $848.82
+$$
+$$
+F^{-} = (800 - 340)e^{.05} -2.40 = $837.44
+$$
+
+e.
+
+$$
+F^{+} = (800 * 1.003 +800 * .003 + 1)e^{.055} = $851.36
+$$
+$$
+F^{-} = (800 * .997 +800 * .003 + 1)e^{.05} = $834.92
+$$
+
+5.16
+
+a.
+
+$$
+F_{0,1} = 875e^{.0475} = $917.57
+$$
+
+b. One futures contract is equal to 250*875 = $218,750 so need to take $800,000/$218,750 which equals 3.657. Next we need to adjust for beta, which is 1.1 so 3.657 * 1.1 = 4.023 meaning we should short 4.023 contracts.

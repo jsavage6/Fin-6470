@@ -1,0 +1,8 @@
+##A reply to our critics
+
+Standard models dont apply to MG because the firm was a subsidiary without outside independent creditors.  The model that is more appropraite is the carrying charge hedging model.  This purpose was written for the purpose of addressing criticisms.  Critics claim that MG was using a very poor and miscalculated version of minimum variance hedging and C&M claim they are off point on this.  They were in fact doing a synthetic storage.
+
+Using a synthetic storage had the effect of switching operations from looking for profit by anticipating changes in price levels to one that made profit from anticipating price relations.  Essentially they were trading the basis and not the price.  They were using hedging to get a profit instead of just hedging against risk.
+
+Synthetic storage reduces exposure to price level and also reduces volatility.  The problem with this is that at times it requires a lot of cash to maintatin operations when times are tough.  
+

@@ -1,0 +1,9 @@
+##Guidolin and Timmerman
+
+Their paper addresses problems with the BS model.  They talk about how at the different extremes of the model that the edges skew or smile.  They discuss different people who have gone about trying to solve this problem before.  
+
+The main problems they wanted to address were the supposed smiles, or skews, of the model.  These smiles occur because of the edges of the implied volatility kind of blows up on them.  This makes the prices in the extremes for options to be improperly priced.
+
+Some examples are stochastic volatility, GARCH models, models with jumps in the underlying assets and models that include transaction.  These attempts to improve the model fail to significantly improve on the emprical performance of the BS model 
+
+The solution they presented and showed could be successful was to add a Bayesion learning process.  The way they did that was to relax key assumptions of the BS model by making a binomial lattice with up and down states that are unkown and updating them via a bayesian way.  That is to say that it updates based on the the last data point combined with a prior.

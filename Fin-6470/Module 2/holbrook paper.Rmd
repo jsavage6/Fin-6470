@@ -1,0 +1,15 @@
+##Holbrook paper
+
+Looks at advancements in the derivatives markets
+
+open contract conecpt - futures markets are measured in terms of volume of contracts outstanding
+
+hedging market concept - derivatives used to be used for speculation but now is more for hedging
+
+multipurpose concept of hedging - have been used to hedge risk including substitute for merchandising contracts
+
+price of storage concept - spot prices are affected by future expected supply
+
+Concept of Reliably Anticipatory Prices - futures prices are very good estimates based on current information on future supply and demand
+
+market balance concept - futures prices that are higher as they get closer to delivery are not normally present

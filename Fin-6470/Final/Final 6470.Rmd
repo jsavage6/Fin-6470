@@ -1,0 +1,413 @@
+###### Final Exam FIN 6470
+###### Nicholas Lyle, Josh Blotter, Cordell Hull, Josh Savage 
+###### A01757213, A01354157, A01308256
+
+####### 10.1
+####### European Call
+$$
+\Delta = e^{-\delta h}C_u - C_d/S(u-d)
+$$
+$$
+\Delta = 25 - 0/100(1.3-1.8)
+$$
+$$
+\Delta = 0.5
+$$
+
+*****
+
+$$
+\beta = e^{-rh}dC_u - uC_d/(u-d)
+$$
+$$
+\beta = e^{-.08*.5}[(1.3*0) - (0.8*25)]/(1.3-0.8)
+$$
+$$
+\beta = -38.4316
+$$
+
+****
+$$
+\Delta S +\beta = e^{-rh}\Big( C_u \frac{e^{(r-\delta)h}-d}{u-d} + C_d \frac{u-e^{(r-\delta)h}}{u-d} \Big)
+$$
+$$
+\Delta S = 0.5 * 100 - 38.4316
+$$
+$$
+\Delta S = $11.5684 
+$$
+$\Delta S$ is the European call option premium
+
+****
+
+Finding the beta for the put option uses a similar calculation to the one above.
+$\beta$ = 62.45 
+
+Pricing the put option premium:
+
+$\Delta$ S = (-0.5 *100) + 62.4513
+
+$\Delta$ S = 12.4513
+
+
+##### 10.4
+
+     Stock picked: AMZN, given choice between loading in weekly and daily data i picked weekly
+	
+Weekly Vol = .0385  Annual = .2779 for 5/3/2012 - 5/3/2017
+
+      B.  
+
+
+Year, Weekly Vol, Annual Vol
+
+2012, 0.0326, 0.2352
+
+2013, 0.0355, 0.2558
+
+2014, 0.0400, 0.2885
+
+2015, 0.0455, 0.3284
+
+2016, 0.0388, 0.2795
+
+2017, 0.0226, 0.1628
+
+C. 
+
+Year, Weekly Vol, Annual Vol
+
+2012.1, 0.02879, 0.2076
+
+2012.2, 0.03150, 0.2271
+
+2013.1, 0.03478, 0.2508
+
+2013.2, 0.03585, 0.2585
+
+2014.1, 0.03727, 0.2687
+
+2014.2, 0.04177, 0.3012
+
+2015.1, 0.05630, 0.4060
+
+2015.2, 0.03758, 0.2710
+
+2016.1, 0.05393, 0.3889
+
+2016.2, 0.02478, 0.1787
+
+2017.1, 0.02258, 0.1628
+
+
+###### 10.6
+
+	
+            169
+         130
+    100     104
+         80
+            64
+    
+  t = 0,S = 100
+  $\triangle = -0.3088$
+  B = 38.569
+  price = 7.9897
+
+  t = 1,S = 80
+  $\triangle = -0.775$
+  B = 77.4396
+  price = 15.4396
+  
+  t = 1,S = 130
+  $\triangle = 0$
+  B = 0
+  price = 0
+
+
+
+###### 10.11 
+
+  a) The call option premium is 53.704. There is a problem with a $d$ greater than one because this shows a proverbial free lunch. 
+  
+  b) The call option will decrease at the downward node and increase on the upward node. The call premium will remain 53.704 because the node increase/decrease will offset each other. 
+  
+  c) The new call option premium is 56.66. We again should expect the upward node to increase and the downward node to decrease. 
+
+###### 10.12
+
+  a) the call option for the American and European call is 18.2826. They are the same because it is not optimal to exercise the option early in the American case 
+  
+  b)  relevent nodes
+
+		t=0 delta = .26  beta = 31.977   premium =5.979 
+
+		Up delta = -.047  beta = 6.859   premium =1.091
+
+		Down delta = -.513  beta = 54.691   premium =10.387
+
+Therefore european put = 5.979
+
+c) nodes
+t=0 delta = -.297  beta = 36.374   premium =6.678 
+
+		Up delta = -.594  beta = 63.005   premium =11.709
+		
+		Therefore american put = 6.678
+
+###### 10.13
+
+  The American call and European call are 12.51447 and 11.88014 respectively. The European put and American call are 8.579741 and 9.104604
+
+###### 10.21
+
+  a) The european call option is 24.005
+  
+  b) The european put option 14.379
+  
+  c)  The american call put 15.2953
+
+###### 10.22
+
+The american call 24.1650
+
+      b) the american put 15.2953
+
+###### 11.1
+
+  a)
+    - K=70, P= 23.238, (K - $S_0$) = 30
+    - k=80, P= 18.98, (K - $S_0$) = 20
+    - k=90, P= 14.72, (K - $S_0$) = 10
+    - k=100, P= 10.47, (K - $S_0$) = 0 
+    
+    Early exercise will occur at k = 70 and 80 
+  
+  b) 
+  
+  $C-P = Se^{-\delta T} - Ke^{-rT}$
+  
+  $C = Se^{-\delta T} - Ke{-rT} + P$
+  
+  $C = 92.311 - K + P$
+ 
+  100 - K > 92.311 - K + P
+  
+  Making the condition of early exercise P < .07688K. Using the put-call parity we can see that a call will not happen above a strike price of 80 
+  
+  c) Using the condition of P<.07688k we can say that anything below a strike price of 70 will justify and early exercise 
+ 
+**** 
+  
+###### 11.2
+
+  a) An early exercise will only occur with a strike price of 70 
+  
+  b) Using the put call parity above we see the condition for an early exercise is 100 -k > 92.311 - k.9231 P. This is only satisfied with a strike of 70.
+  
+  c) Anything below 70 will justify an early exercise 
+  
+****
+  
+###### 11.3
+
+  Without a dividend there will never be an optimal time to exercise an american option early.
+  
+****
+  
+###### 11.4
+  
+  a) The only strike price where early exercise will occur is at k=130
+  
+  b) Early exercise does not occur at lower strike prices because the combination of a put and the underlying asset make it undesirable to exercise because it is worth more than a call and a cash position equal to the strike price
+
+  c) The opposite it true for the previous problem
+  
+****
+  
+###### 11.7
+
+  a) Put = 8.27  
+     Call = 15.96
+     
+  b) The required rate of return for the call would decrease whereas the put would increase 
+  
+****
+  
+###### 11.8
+
+  70: 36.14
+  80: 28.34
+  90: 21.16
+  100: 15.96
+  110: 11.13
+  120: 8.18
+  130: 5.22
+  
+  as strike price increases the required rate of return also increases 
+
+***
+
+######11.12
+
+	The probability of stock price being less than $80 is .2006 and the probability of it being more than $120 is .2829
+  
+######11.13
+
+  The probability that $S_1$ will be less than 80 is .2006 and the probability that it will be greater than 120 is .2829
+
+  ****
+
+###### 12.3
+
+  a) The Black-Scholes call price is 7.89657 for a time period of one year. As T approaches infinity we see that the value of the call approaches the stock price 
+  
+  b) The Black-Scholes call price is now 7.85423. When we add a dividend yield into the equation we can see that the stock price rises and then falls after a certain time to maturity. This is expected when receiving dividends. 
+  
+###### 12.4
+ 
+  a) The Black-Scholes call price for a maturity of one year is equal to 18.67053. In this example we can see the option price fall until it reaches 0. So as expiration approaches infinite the option price goes to 0
+  
+  b) The one year Black-Scholes call price is now 18.72815. The call price will still go to zero as expiry approaches infinite but it will take a little longer. 
+  
+###### 12.6
+ 
+  a) The price of the option is 16.32706
+  
+  b) The one year forward price is 106.18366
+  
+  c) The option price is 20.15624
+  
+###### 12.11
+  
+  a) Vega will be equal to .13. We need to make the error term is small because it will ensure accuracy of the price 
+  
+  b) using the BSCallVega function in excel we get .129392 or .13
+
+###### 12.14
+
+  a) using excel we delta, gamma, vega, theta, and rho of .6159, .045, .1080, -.0134, .1024 for a call price of 40 respectively and a delta, gamma, vega, theta, and rho of .3972, .0454, .1091, -.012, .0688 respectively 
+  
+  b) using the same method as above but a S of 45 we get .8023, .0291, .0885, -.0135 and .1418 for delta, gamma, vega, theta, and rho for a 40-call and .6159, .400, .1216, -.015, .1151 for a 45-call respectively.
+  
+  c) The values of the greeks depend on the stock price changing so we should see a change when we change the price.
+  
+###### 12.15
+
+  a) Using the excel equations we get a delta, gamma, vega, theta, and rho of -.3841, .045, .1080, -.0049, -.0898 for a 40-put and -.6028, .0454, .1091, -.0025, -.1474 for a 45-put. 
+
+  b) If we change the stock price to 45 from 40 we can get a delta, gamma, vega, theta, and rho of -.1977, .0291, .0885, -.0051, -.0503 for a 40-put and -.3841, .0400, .1216, -.0056, -.1010 for a 45-put. 
+  
+  c) The answers are different because as the stock price increases the value of the put increases. This isn't surprising because all the Greeks depend on the price of the put option.
+  
+  d) We see the gamma and vega are the same because they do not change with the type of option but we do see that theta and rho change with the option type. 
+  
+###### 13.1
+
+the delta is .2815.  investment required for a delta hedged portfolio is 28.15 shares.  Your overnight profit if the price is #39 is -$1.82 and if it is $40.50 it is $.49
+
+###### 13.2
+
+the delta is -.4176.  investment required for a delta hedged portfolio is 28.15 shares. Your overnight profit if the price is #39 is -$2.09 and if it is $40.50 it is $.50
+
+###### 13.9
+
+A.
+
+Stock Price, Actual Value
+
+30, 0.075544927
+
+31, 0.130429733
+
+32, 0.213541159
+
+33, 0.333276349
+
+34, 0.498195864
+
+35, 0.716344871
+
+36, 0.994596255
+
+37, 1.338112467
+
+38, 1.749995611
+
+39, 2.231157125
+
+40, 2.780399922
+
+41, 3.394675322
+
+42, 4.069458944
+
+43, 4.799184657
+
+44, 5.57768125
+
+45, 6.398568913
+
+46, 7.255587846
+
+47, 8.142846136
+
+48, 9.054986193
+
+49, 9.987277697
+
+50, 10.93564996
+
+
+B. 
+
+Stock Price, Actual Value, Delta Approximation
+
+30, 0.075544927, -3.043600078
+
+31, 0.130429733, -2.461200078
+
+32, 0.213541159, -1.878800078
+
+33, 0.333276349, -1.296400078
+
+34, 0.498195864, -0.714000078
+
+35, 0.716344871, -0.131600078
+
+36, 0.994596255, 0.450799922
+
+37, 1.338112467, 1.033199922
+
+38, 1.749995611, 1.615599922
+
+39, 2.231157125, 2.197999922
+
+40, 2.780399922, 2.780399922
+
+41, 3.394675322, 3.362799922
+
+42, 4.069458944, 3.945199922
+
+43, 4.799184657, 4.527599922
+
+44, 5.57768125, 5.109999922
+
+45, 6.398568913, 5.692399922
+
+46, 7.255587846, 6.274799922
+
+47, 8.142846136, 6.857199922
+
+48, 9.054986193, 7.439599922
+
+49, 9.987277697, 8.021999922
+
+50, 10.93564996, 8.604399922
+
+
+
+###### 13.15
+  
+We were told to ignore questions with gamma in it and this one only has one part and that has gamma in it, so I am ignoring this question
+
